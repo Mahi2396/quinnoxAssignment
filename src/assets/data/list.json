@@ -1,0 +1,188 @@
+{
+  "A": [
+    {
+      "createdDate": "2020-11-10T22:41:37+05:30",
+      "id": 4,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "Apk",
+      "moduleName": "Module One",
+      "moduleStatus": true,
+      "count": 13
+    },
+    {
+      "createdDate": "2020-11-10T11:10:37+05:30",
+      "id": 2,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#D45D13 ",
+      "moduleKeyName": "Abc",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 13
+    },
+    {
+      "createdDate": "2020-11-10T11:20:37+05:30",
+      "id": 3,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "Ajk",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 10
+    },
+    {
+      "createdDate": "2020-11-10T11:30:37+05:30",
+      "id": 8,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#99CB62 ",
+      "moduleKeyName": "AHJ",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 3
+    },
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 9,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 13
+    }
+  ],
+  "B": [
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 4,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Base application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module One",
+      "moduleStatus": true,
+      "count": 13
+    },
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 2,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Base application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 13
+    },
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 3,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Base application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 10
+    },
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 8,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Base application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 3
+    },
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 9,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Base application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 13
+    }
+  ],
+  "C": [
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 4,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Copy application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module One",
+      "moduleStatus": true,
+      "count": 13
+    },
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 2,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "Copy application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 13
+    },
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 3,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "copy application by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 10
+    },
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 8,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "copy by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 3
+    },
+    {
+      "createdDate": "2020-11-02T22:41:37+05:30",
+      "id": 9,
+      "isStarred": false,
+      "modifiedDate": "2020-11-02T22:41:37+05:30",
+      "moduleDescription": "copy by Superman's sacrifice Batman seeks the help of Wonder Woman to recruit.",
+      "moduleIdentity": "#BA7BF6 ",
+      "moduleKeyName": "MOD",
+      "moduleName": "Module two",
+      "moduleStatus": true,
+      "count": 13
+    }
+  ]
+}

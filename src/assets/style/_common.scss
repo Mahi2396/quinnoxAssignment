@@ -1,0 +1,78 @@
+@import "./variable";
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans"), url("src/assets/fonts/OpenSans-Regular-webfont.woff");
+}
+
+$positions: "relative", "absolute", "fixed";
+@each $position in $positions {
+  .position-#{$position} {
+    position: #{$position};
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.q-col {
+  flex: 0 1 calc(25% - 1em);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.qt-control-content {
+  color: #717d94;
+}
+.small_card {
+  min-width: 70px;
+  padding: 8px 16px;
+  &.secondary {
+    background: $secondary;
+    border-radius: 3px;
+    @extend .qt-control-content;
+  }
+}
+.card {
+  background: #fafafa 0% 0% no-repeat padding-box;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  top: -4px;
+  &:hover {
+    box-shadow: 0px 6px 10px $boxShadow;
+  }
+}
+.list-style-none{
+  list-style-type: none;
+}
+.float-right{
+  float: right;
+}
+.clear-fix{
+  clear: both;
+  content: '';
+  display: tableF;
+}
+@media screen and (max-width: 600) {
+  .q-col {
+    flex: 0 1 calc(50% - 1em) !important;
+  }
+}
+@media screen and (max-width: 597px) {
+  .q-col {
+    flex: 0 1 calc(100% - 1em) !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: $scrollBar;
+}
+::-webkit-scrollbar-thumb {
+  background: $scrollActive;
+  border-radius: 10px;
+}

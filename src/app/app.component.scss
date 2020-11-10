@@ -1,0 +1,21 @@
+.q-main-wrapper {
+  .q-side-nav-wrapper {
+    width: 61px;
+    background: transparent linear-gradient(177deg, #363f4b 0%, #1a1f26 100%) 0%
+      0% no-repeat padding-box;
+  }
+  .q-body-wrapper {
+    width: calc(100% - 49px);
+    height: 100%;
+    overflow: hidden;
+    .q-header-wrapper {
+      height: 48px;
+
+      background: transparent linear-gradient(91deg, #363f4b 0%, #1a1f26 100%)
+        0% 0% no-repeat padding-box;
+    }
+    .inner-wrapper {
+      height: 100%;
+    }
+  }
+}

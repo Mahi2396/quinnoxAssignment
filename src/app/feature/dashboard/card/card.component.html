@@ -1,0 +1,55 @@
+<ul class="row qt-p-0 list-style-none">
+  <li
+    class="q-col qt-mr-4 qt-mb-4"
+    [title]="repoItem.moduleKeyName"
+    *ngFor="let repoItem of repolist"
+  >
+    <span
+      class="repo-status d-inline-block qt-p-2"
+      [style.backgroundColor]="repoItem.moduleIdentity"
+    >
+      <img src="./assets/icons/bxs-star.svg" title="Status" />
+    </span>
+    <div class="card qt-p-4 position-relative">
+      <div class="card-header d-flex align-items-center">
+        <span
+          class="icon d-flex align-items-center justify-content-center"
+          [style.backgroundColor]="repoItem.moduleIdentity"
+        >
+          <img src="./assets/icons/bx-box.svg" title="repo" />
+        </span>
+        <span class="small_card secondary qt-ml-2 d-inline-block font-w-400"
+          >REPO</span
+        >
+        <span class="action">
+          <a href="#">
+            <img
+              src="./assets/icons/more_horiz-black-18dp.svg"
+              title="More"
+              alt="more"
+            />
+          </a>
+        </span>
+      </div>
+      <div class="card-body">
+        <h5 class="qt-m-0 qt-mt-3">Congratulations</h5>
+        <p class="qt-control-content">
+          {{ repoItem.moduleDescription }}
+        </p>
+      </div>
+      <div class="card-footer d-flex">
+        <span class="small_card secondary d-inline-block">{{
+          repoItem.createdDate | dateFormNow
+        }}</span>
+        <span class="small_card secondary d-inline-block qt-ml-2">
+          <img
+            class="qt-mr-2"
+            src="./assets/icons/bx-food-menu.svg"
+            title="Count"
+          />
+          {{ repoItem.count }}</span
+        >
+      </div>
+    </div>
+  </li>
+</ul>

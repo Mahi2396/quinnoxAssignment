@@ -1,0 +1,35 @@
+<div class="dashboard-container">
+  <div class="filter-wrapper qt-p-4">
+    <div class="title qt-mt-4 qt-mb-4"><h3>Test Repository</h3></div>
+    <div class="search-container qt-mt-3 d-flex justify-content-center">
+      <app-search
+        placeholder="Search by name"
+        (doneTyping)="filterRepo($event)"
+      ></app-search>
+    </div>
+  </div>
+
+  <div class="card-list-wrapper qt-p-4" (scroll)="scrollHandler($event)">
+    <div
+      class="card-row"
+      id="target{{ inx }}"
+      *ngFor="let item of repoList | keyvalue; let inx = index"
+    >
+      <div class="section__header font-18 font-w-600 sticky" id="blockTitle">
+        {{ item.key }}
+      </div>
+      <app-card [repolist]="item.value"></app-card>
+    </div>
+
+    <ul class="repo-shortcut-wrapper qt-p-0 qt-m-0 position-fixed">
+      <li
+        class="cursor-pointer"
+        *ngFor="let item of repoList | keyvalue; let inx = index"
+        (click)="scroll(inx)"
+        [ngClass]="{ active: selectedRepoName == item.key }"
+      >
+        {{ item.key }}
+      </li>
+    </ul>
+  </div>
+</div>
