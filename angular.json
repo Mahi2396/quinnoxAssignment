@@ -102,7 +102,10 @@
           "options": {
             "outputPath": "dist/quinnox-test/server",
             "main": "server.ts",
-            "tsConfig": "src/tsconfig.server.json"
+            "tsConfig": "src/tsconfig.server.json",
+            "stylePreprocessorOptions": {
+              "includePaths": ["src/styles", "./src/assets"]
+            }
           },
           "configurations": {
             "production": {
